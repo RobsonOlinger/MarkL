@@ -78,7 +78,6 @@ describe('Teste MarkL', () => {
      describe('Excluir cadastro no MarkL',() => {
         it('Quando eu excluir uma atividade, deve excluir a atividade cadastrada sem erros ', () => {
             ActionsPage.AcessPage()
-            ActionsPage.AcessPage()
             Register.RegisterActivity('atividade um')
             Register.RegisterActivity('atividade dois')
             cy.get('button[class*=listItemDeleteButton]').each(($el) => {
