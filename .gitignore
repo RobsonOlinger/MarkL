@@ -1,0 +1,11 @@
+# Diretórios de dependências
+node_modules/
+bower_components/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Arquivos temporários
+*.tmp
+*.swp

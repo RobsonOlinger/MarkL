@@ -1,0 +1,20 @@
+{
+  "name": "qaautomacao",
+  "version": "1.0.0",
+  "description": "automação em cypress no projetoMarkL",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "markl",
+    "teste",
+    "automação"
+  ],
+  "author": "Robson Olinger",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
